@@ -1,0 +1,266 @@
+body
+{
+    background-color: white;
+    /* background-image: url(bg.png);
+    background-repeat: no-repeat; */
+    margin: 0;
+    padding-top: 0;
+    font-family: 'SF UI Display', sans-serif;
+    color: #000000;
+   
+}
+.circleup
+{
+    width: 671.44px;
+    height: 671.44px;
+    margin-top: -700px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #5089DF 0%, rgba(255, 161, 200, 0.822) 100%);
+    z-index: -20;
+}
+.header
+{ 
+    position: relative;
+    width: 100%;
+    max-width: 1239px;
+	display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+.logo
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.item-link
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 24px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.item-link:hover
+{
+    background-size: 100% 2px;
+}
+.circleleft
+{
+    position: relative;
+    z-index: -10;
+    margin: 0;
+    /* background-color: red; */
+    top: 700px;
+    margin-bottom: -700px;
+
+}
+.infokz
+{
+    position: relative;
+    margin-top: 56px;
+    width: 1239px;
+    height: 811px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 10;
+    /* background-color: red; */
+}
+
+.kz
+{
+    margin: 0;
+    float: right;
+}
+.kzdesc
+{
+    position: relative;
+    width: 528px;
+    height: 109px;
+    top: 354px;
+    z-index: 20;
+    /* background-color: yellow; */
+}
+.kztext
+{
+    width: 509px;
+    height: 109px;
+    float: left;
+    /* background-color: green; */
+}
+.kname
+{
+    float: right;
+    font-weight: 500;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+.kdescription
+{
+    float: right;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+}
+.rightline
+{
+    height: 109px;
+    width: 3px;
+    border-radius: 10px;
+    background-color: #000000;
+    float: right;
+}
+.circleright
+{
+    position: relative;
+    z-index: -10;
+    margin: 0;
+    /* background-color: red; */
+    margin-bottom: -700px;
+    top: 700px;
+    float: right;
+}
+.infoab
+{
+    width: 1239px;
+    height: 811px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: red; */
+    margin-top: 95px;
+    margin-bottom: 120px;
+}
+.ab
+{
+    float: left;
+}
+.abdesc
+{
+    position: relative;
+    width: 543px;
+    height: 109px;
+    top: 354px;
+    float: right;
+    /* background-color: yellow; */
+}
+.abtext
+{
+    width: 524px;
+    height: 109px;
+    float: right;
+}
+.aname
+{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 82.5%;
+    margin-bottom: 40px;
+}
+.adescription
+{
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 123.5%;
+   
+}
+.leftline
+{
+    height: 109px;
+    width: 3px;
+    border-radius: 10px;
+    background-color: #000000;
+    float: left;
+}
+.footer
+{
+    max-height: 392px;
+    width: 100%;
+    height: 392px;
+}
+.footer-elements
+{
+    width: 491px;
+    height: 292px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 10;
+    top: 80px;
+}
+.circledown
+{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -10;
+    top: -290px;
+}
+.logobottom
+{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-links
+{
+    position: relative;
+    width: 100%;
+    max-width: 491px;
+	display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 78px;
+    margin-bottom: 55px;
+}
+.bottom-link
+{
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #004B6B;
+}
+.contact
+{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    width: 392px;
+    height: 65px;
+    background: linear-gradient(180deg, #84D8EE 0%, #76C7F2 100%);
+    box-shadow: -6px -6px 16px #92E4EC, 6px 6px 16px #6DB6F8;
+    border-radius: 71px;
+    border: 0;
+    z-index: 14;
+}
+.button-text
+{
+
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #004B6B;
+}
