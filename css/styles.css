@@ -1,8 +1,6 @@
 body
 {
     background-color: white;
-    /* background-image: url(bg.png);
-    background-repeat: no-repeat; */
     margin: 0;
     padding-top: 0;
     font-family: 'SF UI Display', sans-serif;
@@ -11,13 +9,12 @@ body
 }
 .circleup
 {
-    width: 671.44px;
-    height: 671.44px;
-    margin-top: -700px;
+    position: relative;
+    height: 276px;
+    margin-top: -181px;
+    display: block;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 50%;
-    background: linear-gradient(180deg, #5089DF 0%, rgba(255, 161, 200, 0.822) 100%);
     z-index: -20;
 }
 .header
@@ -185,12 +182,6 @@ body
     background-color: #000000;
     float: left;
 }
-.footer
-{
-    max-height: 392px;
-    width: 100%;
-    height: 392px;
-}
 .footer-elements
 {
     width: 491px;
@@ -208,7 +199,7 @@ body
     margin-right: auto;
     margin-left: auto;
     z-index: -10;
-    top: -290px;
+    margin-top: -290px;
 }
 .logobottom
 {
@@ -276,7 +267,7 @@ body
     {
         position: relative;
         margin-top: 56px;
-        max-width: 978px;
+        max-width: 950px;
         height: 694px;
         z-index: 10;
         /* background-color: red; */
@@ -360,6 +351,26 @@ body
     }
     .infokz, .infoab
     {
-        max-width: 576px;
+        max-width: 550px;
     }
+    .adescription
+    {
+        max-width: 530px;
+    }
+    .circleup
+    { 
+        left: -50px;
+        z-index: -20;
+        top: -70px;
+        transform: scale(0.5);
+    }
+    .footer
+    {
+        width:550px;
+    }
+    .circledown
+    {
+        margin-top: 0;
+    }
+
 }
