@@ -175,7 +175,6 @@ body
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    line-height: 123.5%;
    
 }
 .leftline
@@ -251,9 +250,12 @@ body
     border: 0;
     z-index: 14;
 }
+.contact:focus {
+    outline: none;
+    box-shadow: inset -6px -6px 16px #92E4EC, inset 6px 6px 16px #6DB6F8;
+}
 .button-text
 {
-
     position: relative;
     display: block;
     margin-left: auto;
@@ -263,4 +265,101 @@ body
     font-weight: 500;
     font-size: 24px;
     color: #004B6B;
+}
+@media(max-width: 978px)
+{
+    .header
+    {
+        max-width: 800px;
+    }
+    .infokz, .infoab
+    {
+        position: relative;
+        margin-top: 56px;
+        max-width: 978px;
+        height: 694px;
+        z-index: 10;
+        /* background-color: red; */
+    }
+    .kz, .ab
+    {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 447px;
+        height: 585px;
+    }
+    .kzdesc
+    {
+        position: relative;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        top: 30px;
+        z-index: 20;
+    }
+    .abdesc
+    {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        top: 30px;
+        z-index: 20;
+        float: none;
+        /* background-color: yellow; */
+    }
+    .kztext, .abtext
+    {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 509px;
+        height: 109px;
+        float:none;
+        /* background-color: green; */
+    }
+    .adescription
+    {
+        margin: 0;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+       width: 550px;
+    }
+    .kname, .aname
+    {
+        float: none;
+        text-align: center;
+        font-weight: 500;
+        font-size: 48px;
+        margin: 0;
+        margin-bottom: 28px;
+    }
+    .rightline, .leftline
+    {
+        background-color: transparent;
+    }
+    .circleright
+    {
+        top: 700px;
+    }
+}
+@media (max-width: 576px)
+{
+    .circledown
+    {
+        display: none;
+    }
+    .header
+    {
+        max-width: 500px;
+    }
+    .infokz, .infoab
+    {
+        max-width: 576px;
+    }
 }
