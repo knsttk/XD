@@ -6,3 +6,4 @@
     rellax.destroy();
   }
   AOS.init();
+  

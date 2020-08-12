@@ -382,6 +382,41 @@ body
 {
     background-image: url(example3.png);
 }
+/* ------------------------Contacts-------------------------*/
+.contacts
+{
+    width: 480px;
+    height: 377px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.type
+{
+    width: 480px;
+    height: 68px;
+    margin-bottom: 10px;
+}
+.tg, .ins, .vk, .gm
+{
+    float: left;
+}
+.Telegram, .Instagram, .VK, .Gmail
+{
+    float: left;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text
+{
+    font-size: 24px;
+    font-weight: 300;
+    float: right;
+    margin: 0;
+    width: 280px;
+    margin-top: 24px;
+}
+
 @media(max-width: 768px)
 {  
     /* ------------------------HOME-------------------------*/
@@ -711,5 +746,29 @@ body
     .jobs1, .jobs2, .jobs3
     {
         height:300px;
+    }
+    /* ------------------------Contacts-------------------------*/
+    .contacts
+    {
+        width: 300px;
+        height: 500px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .type
+    {
+        width: 300px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .tg, .ins, .vk, .gm
+    {
+        float: left;
+    }
+    .text
+    {
+        float: left;
+        margin-top: 0px;
     }
 }
