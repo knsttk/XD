@@ -651,6 +651,7 @@ body
         height: 750px;
         line-height: 100%;
         top: -380px;
+        margin-top: -50px;
     }
     .abpic
     {
@@ -660,11 +661,5 @@ body
     .aname2
     {
         width: 300px;
-        float: none;
-        text-align: center;
-        position: relative;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
     }
 }
