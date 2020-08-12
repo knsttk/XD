@@ -24,7 +24,6 @@ body
     max-width: 1239px;
 	display: flex;
     justify-content: space-between;
-    text-align: justify;
     margin-right: auto;
     margin-left: auto;
     margin-top: 56px;
@@ -257,17 +256,37 @@ body
     font-size: 24px;
     color: #004B6B;
 }
-@media(max-width: 978px)
-{
+@media(max-width: 768px)
+{  
+    .circledown
+    {
+        position: relative;
+        height: 320px;
+        margin-top: -240px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .circleup
+    {
+        margin-top: -205px;
+    }
     .header
     {
-        max-width: 800px;
+        max-width: 700px;
+        position: relative;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 56px;
     }
     .infokz, .infoab
     {
         position: relative;
         margin-top: 56px;
-        max-width: 950px;
+        max-width: 760px;
         height: 694px;
         z-index: 10;
         /* background-color: red; */
@@ -339,7 +358,7 @@ body
         top: 700px;
     }
 }
-@media (max-width: 576px)
+@media (max-width: 425px)
 {
     .circledown
     {
@@ -347,26 +366,64 @@ body
     }
     .header
     {
-        max-width: 500px;
+        max-width: 370px;
     }
     .infokz, .infoab
     {
-        max-width: 550px;
+        width: 400px;
+        height: 694px;
+        z-index: 10;
+        /* background-color: red; */
+    }
+    .kz, .ab
+    {
+        width: 354px;
+        height: 463px;
+    }
+    .kzdesc, .abdesc
+    {
+        width: 300px;
+    }
+    .kztext, .abtext
+    {
+        width: 300px;
     }
     .adescription
     {
-        max-width: 530px;
+       width: 300px;
+    }
+    .kname, .aname
+    {
+        float: none;
+        text-align: center;
+        font-weight: 500;
+        font-size: 48px;
+        margin: 0;
+        margin-bottom: 28px;
+    }
+    .rightline, .leftline
+    {
+        display: none;
+    }
+    .circleleft
+    {
+        width: 300px;
+    }
+    .circleright
+    {
+        top:-300px;
+    }
+    .footer-elements
+    {
+        width: 300px;
+    }
+    .contact
+    {
+        width: 300px;
     }
     .circleup
-    { 
-        left: -50px;
-        z-index: -20;
-        top: -70px;
-        transform: scale(0.5);
-    }
-    .circledown
     {
-        margin-top: 0;
+        height: 160px;
+        margin-top: -205px;
     }
-
 }
