@@ -256,8 +256,107 @@ body
     font-size: 24px;
     color: #004B6B;
 }
+/* ------------------ABOUT US ------------------*/
+.about-text
+{
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+.info1
+{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1332px;
+    height: 607px;
+}
+.text1
+{
+    font-weight: 300;
+    font-size: 24px;
+    width: 761px;
+    height: 536px;
+    float: left;
+    line-height: 196%;
+    margin: 0;
+}
+.lineup
+{
+    position: absolute;
+    width: 3px;
+    height: 536px;
+    background-color: #000000;
+    margin-right: 0;
+    left: 785px;
+}
+.kzpic
+{
+    float: right;
+    margin: 0;
+}
+.kname2
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    width: 515px;
+    margin: 0;
+    float: right;
+    text-align: center;
+}
+.info2
+{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1332px;
+    height: 607px;
+    margin-top: 88px;
+    margin-bottom: 129px;
+}
+.abpic
+{
+    float: left;
+    margin: 0;
+}
+
+.linedown
+{
+    position: absolute;
+    width: 3px;
+    height: 536px;
+    background-color: #000000;
+    margin-right: 24px;
+    left: 570px;
+}
+.text2
+{
+    font-weight: 300;
+    font-size: 24px;
+    width: 737px;
+    height: 536px;
+    line-height: 196%;
+    margin: 0;
+    float: right;
+}
+.aname2
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    width: 544px;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
 @media(max-width: 768px)
 {  
+    /* ------------------------HOME-------------------------*/
     .circledown
     {
         position: relative;
@@ -357,6 +456,88 @@ body
     {
         top: 700px;
     }
+
+    /* ------------------------ABOUT US-------------------------*/
+    .info1
+    {
+        width: 700px;
+        height: 1300px;
+    }
+    .text1
+    {
+        width: 600px;
+        height: 700px;
+        float: none;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .lineup
+    {
+        display: none;
+    }
+    .kzpic
+    {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+    .kname2
+    {
+        width: 515px;
+        float: none;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .info2
+    {
+       
+        width: 700px;
+        height: 1200px;
+    }
+    .abpic
+    {
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        top: 700px;
+    }
+    
+    .linedown
+    {
+        display: none;
+    }
+    .text2
+    {
+        width: 600px;
+        height: 700px;
+        float: none;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        top: -500px;
+    }
+    .aname2
+    {
+        width: 515px;
+        float: none;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 @media (max-width: 425px)
 {
@@ -391,6 +572,7 @@ body
     .adescription
     {
        width: 300px;
+       float: none;
     }
     .kname, .aname
     {
@@ -423,7 +605,66 @@ body
     }
     .circleup
     {
-        height: 160px;
+        height: 150px;
         margin-top: -205px;
+    }
+    /* ------------------------ABOUT US-------------------------*/
+    .about-text
+    {
+        margin-top: 50px;
+    }
+    .info1
+    {
+        width: 300px;
+        height: 1150px;
+    }
+    .text1
+    {
+        width: 300px;
+        height: 750px;
+        line-height: 100%;
+    }
+    .kzpic
+    {
+        width: 300px;
+        height: 312px;
+    }
+    .kname2
+    {
+        width: 300px;
+        float: none;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .info2
+    {
+        width: 300px;
+        height: 1200px;
+        margin-bottom: 0px;
+    }
+    .text2
+    {
+        width: 300px;
+        height: 750px;
+        line-height: 100%;
+        top: -380px;
+    }
+    .abpic
+    {
+        width: 300px;
+        height: 312px;
+    }
+    .aname2
+    {
+        width: 300px;
+        float: none;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
